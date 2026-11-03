@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kartoon — Installer</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Rounded", "SF Pro Display", sans-serif;
+    min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center;
+    text-align: center; color: #fff; padding: 32px 24px;
+    background: linear-gradient(180deg, #2c60d2 0%, #7ab0ec 42%, #ffbc92 64%, #ffddb0 78%, #68b254 100%);
+  }
+  .card { max-width: 380px; width: 100%; }
+  .icon { width: 124px; height: 124px; border-radius: 28px; margin: 0 auto 22px; box-shadow: 0 14px 40px rgba(0,0,0,.35); }
+  h1 { font-size: 46px; font-weight: 900; letter-spacing: -1px; text-shadow: 0 3px 14px rgba(0,0,0,.25); }
+  .sub { font-size: 15px; font-weight: 800; letter-spacing: 4px; color: rgba(255,255,255,.85); margin-top: 4px; }
+  .ver { font-size: 14px; color: rgba(255,255,255,.9); margin-top: 14px; line-height: 1.5; background: rgba(0,0,0,.18); border-radius: 14px; padding: 10px 14px; }
+  .btn {
+    display: block; margin: 26px auto 0; padding: 18px 24px; width: 100%;
+    font-size: 20px; font-weight: 900; color: #fff; text-decoration: none; border-radius: 100px;
+    background: linear-gradient(90deg, #ff4f3d, #ff8a3d); box-shadow: 0 10px 30px rgba(255,79,61,.45);
+  }
+  .btn:active { transform: scale(.97); }
+  .steps {
+    margin-top: 24px; text-align: left; font-size: 14px; line-height: 1.7; color: #1b2a12;
+    background: rgba(255,255,255,.82); border-radius: 16px; padding: 14px 18px;
+  }
+  .steps b { color: #000; }
+  .steps ol { margin-left: 18px; }
+  .tips { margin-top: 16px; text-align: left; font-size: 13px; line-height: 1.6; color: rgba(255,255,255,.95); background: rgba(0,0,0,.22); border-radius: 16px; padding: 12px 16px; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <img class="icon" src="icon.png?v=1" alt="Kartoon">
+    <h1>KARTOON</h1>
+    <div class="sub">PROTOTYPE 1</div>
+    <div class="ver">v0.1 · build 1 · 03/11/2026<br>Piste « Boucle du Couchant », conduite arcade + dérapages, mode Démo.</div>
+    <a class="btn" href="itms-services://?action=download-manifest&url=https://wayheme69.github.io/kartoon-ota/manifest-v1.plist">📲 Installer Kartoon</a>
+    <div class="steps">
+      <ol>
+        <li>Ouvre ce lien dans <b>Safari</b> (pas Chrome).</li>
+        <li>Touche <b>Installer Kartoon</b> puis <b>Installer</b>.</li>
+        <li>Si l'app ne s'ouvre pas : <b>Réglages → Général → VPN et gestion de l'appareil</b> → faire confiance à <b>DIGITAL APP LLC</b>.</li>
+        <li>Tiens l'iPhone en <b>paysage</b> 🏎️</li>
+      </ol>
+    </div>
+    <div class="tips">
+      <b>Commandes :</b> glisse le pouce dans la <b>moitié gauche</b> pour tourner · <b>DRIFT</b> maintenu dans les virages, relâche pour le turbo (3 paliers : bleu, orange, violet) · <b>FREIN</b> · <b>RÉTRO</b> = regarder derrière.<br>
+      <b>Réglages</b> (menu) : boutons ◀ ▶ ou inclinaison, sensibilité, son, vibrations.
+    </div>
+  </div>
+</body>
+</html>
